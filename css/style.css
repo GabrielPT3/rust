@@ -1,0 +1,23 @@
+body, html {
+    width: 100%;
+    margin: 0;
+}
+
+h1, h2, h3{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+hr{
+    margin: 0;
+}
+
+.content{
+    width: 70%;
+    padding-left: 15%;
+    padding-right: 15%;
+    background: #181818;
+}

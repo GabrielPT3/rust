@@ -1,0 +1,58 @@
+.content{
+    min-height: 100vh;
+}
+
+.content h2{
+    font-family: 'Nerko One', cursive;
+    font-size: 30px;
+    color: #CA402A;
+    text-align: center;
+    padding: 50px 0 50px 0;
+}
+
+.itembox{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.itembox .description{
+    max-width: 700px;
+}
+
+.itembox img{
+    max-width: 150px;
+    height: auto;
+}
+
+.materialsdiv h3{
+    text-align: center;
+    font-family: 'Nerko One', cursive;
+    font-size: 25px;
+    color: #CA402A;
+    padding: 25px 0 25px 0;
+}
+
+.materialsdiv .materialsbox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.materialsdiv .materialsbox .material{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: white;
+    margin: 10px;
+}
+
+.materialsdiv .materialsbox .material b{
+    color: #CA402A;
+}

@@ -1,0 +1,117 @@
+.navbar{
+    background: #CA402A;
+    display: block;
+    z-index: 10;
+    width: 100%;
+    overflow: hidden;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.4s;
+}
+
+.navbarfrontpage{
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.stickynav{
+    position: fixed;
+    top: 0;
+    background: #1C1C1C;
+}
+
+.navbar .navbaritems{
+    margin: 0 15% 0 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    width: 70%;
+    height: fit-content;
+    padding: 0;
+}
+
+.navbar .navbaritems .mobilenavbaricon{
+    margin: 0;
+    text-align: center;
+    display: none;
+    vertical-align: middle;
+}
+
+.navbar .navbaritems .mobilenavbaricon i{
+    margin: 0;
+    padding: 10px 0 10px 0;
+    text-align: center;
+    
+}
+
+.navico{
+    color: #CA402A;
+}
+
+.navicomobile{
+    color: #948C87;
+}
+
+.navbar .mobilenavbaritems{
+    background: #1C1C1C;
+    margin: -15px 0 0 0;
+    transition: 0.4s;
+    height: 0;
+}
+
+.navbar .mobilenavbaritems ul{
+    display: block;
+    padding: 25px 0 25px 0;
+    text-align: center;
+}
+
+.navbar .mobilenavbaritems ul li{
+    padding: 20px 0 20px 0;
+}
+
+
+.navbar img{
+    width: 100px;
+    height: 25px;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar ul{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.navbar ul li{
+    list-style: none;
+    margin-left: 25px;
+    text-align: center;
+}
+
+.navbar ul li:hover a{
+    color: white;
+}
+
+.navbar ul li a{
+    color: #948C87;
+    text-decoration: none;
+    font-family: 'Nerko One', cursive;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.navbar ul li a:hover{
+    color: white;
+    background: #CA402A;
+}
+
+
+@media only screen and (max-width: 700px) {
+    .navbar .navbaritems .mobilenavbaricon{
+        display: block;
+    }
+
+    .navbar .navbaritems ul{
+        display: none;
+    }
+  }

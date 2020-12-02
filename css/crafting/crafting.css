@@ -1,0 +1,82 @@
+
+.content h1{
+    font-family: 'Nerko One', cursive;
+    color:  #CA402A;
+    text-align: center;
+    padding-top: 50px;
+    font-size: 50px;
+}
+
+.content h2{
+    font-family: 'Nerko One', cursive;
+    color: #948C87;
+    font-size: 30px;
+}
+
+.content hr{
+    border: 2px solid #CA402A;
+}
+
+.itemsdiv{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.itemsdiv .itembox{
+    background: #1C1D1D;
+    padding: 20px;
+    margin: 20px;
+    max-width: 200px;
+}
+
+.itemsdiv .itembox img{
+    max-width: 100px;
+    height: auto;
+}
+
+.itemsdiv .itembox h2{
+    color: #CA402A;
+}
+
+.itemsdiv .itembox p{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+}
+
+.itemsdiv .itembox a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: white;
+    background:  #CA402A;
+    padding: 10px;
+    text-decoration: none;
+    position: relative;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+    transition: 0.4s ease-in-out;
+}
+
+.itemsdiv .itembox a:hover{
+    clip-path: polygon(0% 0%, 100% 0%, 90% 100%, 0% 100%);
+    padding: 10px 20px 10px 10px;
+}
+
+.filtersdiv{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.filtersdiv .filter{
+    margin: 10px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    background: #CA402A;
+    padding: 10px;
+
+}
